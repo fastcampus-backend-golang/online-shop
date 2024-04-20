@@ -9,9 +9,10 @@ import (
 
 // Product adalah representasi dari data produk di database dan API
 type Product struct {
-	ID    string `json:"id" binding:"len=0"` // mencegah ID diisi oleh user
-	Name  string `json:"name"`
-	Price int64  `json:"price"`
+	ID        string `json:"id" binding:"len=0"` // mencegah ID diisi oleh user
+	Name      string `json:"name"`
+	Price     int64  `json:"price"`
+	IsDeleted *bool  `json:"is_deleted,omitempty"`
 }
 
 // SelectProduct adalah fungsi untuk mengambil data produk dari database
