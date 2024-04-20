@@ -1,0 +1,8 @@
+# variables
+@id = 00000000-0000-0000-0000-000000000000
+
+# request method, url, & headers
+DELETE http://localhost:8080/admin/products/{{id}}
+Content-Type: application/json
+Authorization: secret
+

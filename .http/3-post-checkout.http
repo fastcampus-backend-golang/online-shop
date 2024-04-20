@@ -1,0 +1,22 @@
+# request method, url, & headers
+POST http://localhost:8080/api/v1/checkout
+Content-Type: application/json
+
+# body
+{
+    "email": "email@example.com",
+    "address": "my address",
+    "products": [
+        {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "quantity": 3
+        },
+        {
+            "id": "00000000-0000-0000-0000-000000000001",
+            "quantity": 2
+        }
+    ]
+}
+
+
+

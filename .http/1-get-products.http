@@ -1,0 +1,3 @@
+# request method, url, & headers
+GET http://localhost:8080/api/v1/products
+Content-Type: application/json

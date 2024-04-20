@@ -1,0 +1,7 @@
+# variables
+@id = 00000000-0000-0000-0000-000000000000
+
+# request method, url, & headers
+GET http://localhost:8080/api/v1/products/{{id}}
+Content-Type: application/json
+
